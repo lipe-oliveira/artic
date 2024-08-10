@@ -11,7 +11,11 @@
     "g2": "git commit -m auto",
     "g3": "git push"
   },
-  "description": "",
+  "engines": {
+   "node": "12.11.1",
+   "npm":  "6.14.8"
+   },
+  "description": "Artic app server",
   "keywords": [],
   "author": ""
 }

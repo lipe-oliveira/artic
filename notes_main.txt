@@ -22,6 +22,8 @@ heroku login
 heroku git:remote -a artic
 heroku logs --tail
 
+heroku restart
+
 #npm config get prefix # para localizar o npm e adicionar nas variáveis de ambiente caso não funcioe no vscode terminator 
 
 
