@@ -11,6 +11,17 @@
     "g2": "git commit -m auto",
     "g3": "git push"
   },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^6.1.4",
+    "mongoose-paginate": "^5.0.3",
+    "nodemon": "^2.0.6",
+    "paginate": "^0.2.0"},
   "engines": {
    "node": "12.11.1",
    "npm":  "6.14.8"
