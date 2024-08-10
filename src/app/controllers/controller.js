@@ -2,19 +2,20 @@ const express = require('express');
 const router = express.Router();
 const Produtos = require("../models/generaltab");
 
-router.post('/post_produto', async(req, res) => {
+router.get('/get_responde', async(req, res) => {
     try{
+        /*
         const{nome, desc, valor} = req.body;
 
         const produto = await Produtos.create(req.body);
-
-        return res.send(produto);
+*/
+        return res.send ("oi");
     }
     catch(err){
         console.log(err);
     }
 });
-
+/*
 router.post('/post_produto_img', async(req, res) => {
     try{
         const{id, img} = req.body;
@@ -83,5 +84,5 @@ router.post('/delete', async (req, res)=>{
 
     }
 });
-
+*/
 module.exports = (app) => app.use('/server', router);
