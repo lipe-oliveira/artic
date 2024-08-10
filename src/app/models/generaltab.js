@@ -2,19 +2,19 @@ const mongoose = require("../../database/index");
 const mongoose_paginate = require('mongoose-paginate');
 
 const schema = new mongoose.Schema({
-    desc:{
+    tipo:{ // ex: embargos, apelação e agravo de instrumento
         type: String,
-        required: false
+        required: true
     },
-    objetivos:{
+    cabecalho:{
         type:String,
         required:false
     },
-    funcionamento: {
+    ementa: {
         type: String,
         required:false
     },
-    imgs:[
+    relatório:[
         {
         imagem:{
             type: String,

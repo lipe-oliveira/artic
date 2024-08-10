@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Sobre = require('../models/sobre')
+const Sobre = require('../models/generaltab')
 
 router.get('/get_logo', async(req, res) => {
     const sobre= await Sobre.findOne({});

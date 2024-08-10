@@ -12,6 +12,18 @@ git add . or git clone https://github.com/libgit2/libgit2 #exemplo
 git commit -m 'versão' 
 git status
 git add README
+git remote set-url origin 'https:' # só se necessário
+git push
+
+npm install -g heroku
+
+if returno of 'Get-ExecutionPolicy' (command) is Restricted -> Set-ExecutionPolicy RemoteSigned (power sheel administrador)
+heroku login
+heroku git:remote -a artic
+
+#npm config get prefix # para localizar o npm e adicionar nas variáveis de ambiente caso não funcioe no vscode terminator 
+
+
 
 BIBLIOTECAS: 
 *yarn add mongoose
